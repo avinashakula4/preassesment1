@@ -11,7 +11,7 @@ public class Book {
 	int yearPublished;
 	
 	
-	private static int count=1;
+	 static int count=1;
 	
 	public Book(String author, String title, int yearPublished) {
 		super();

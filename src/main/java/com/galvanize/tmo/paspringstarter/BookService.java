@@ -46,6 +46,8 @@ public class BookService {
 
 	public void removeAllBooks() {
 		allBooks.clear();
+		Book.count=1;
+
 		
 	}
 

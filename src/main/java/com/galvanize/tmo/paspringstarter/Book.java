@@ -1,4 +1,4 @@
-package com.learning.restfulwebservices.book;
+package com.galvanize.tmo.paspringstarter;
 
 
 public class Book {

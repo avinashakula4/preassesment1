@@ -8,7 +8,7 @@ public class Book {
 	
 	String author;
 	String title;
-	Long year;
+	Long yearPublished;
 	
 	private static int count=1;
 	
@@ -17,7 +17,7 @@ public class Book {
 		this.id = count++;
 		this.author = author;
 		this.title = title;
-		this.year = year;
+		this.yearPublished = yearPublished;
 	}
 	public String getAuthor() {
 		return author;
@@ -32,11 +32,11 @@ public class Book {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public Long getYear() {
-		return year;
+	public Long getYearPublished() {
+		return yearPublished;
 	}
-	public void setYear(Long year) {
-		this.year = year;
+	public void setYearPublished(Long yearPublished) {
+		this.yearPublished = yearPublished;
 		
 		
 	}

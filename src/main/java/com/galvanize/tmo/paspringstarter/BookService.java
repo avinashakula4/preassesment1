@@ -1,4 +1,4 @@
-package com.galvanize.tmo.paspringstarter;
+package com.learning.restfulwebservices.book;
 
 import java.util.ArrayList;
 import java.util.Collections;

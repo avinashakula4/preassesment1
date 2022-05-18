@@ -8,11 +8,12 @@ public class Book {
 	
 	String author;
 	String title;
-	Long yearPublished;
+	int yearPublished;
+	
 	
 	private static int count=1;
 	
-	public Book(String author, String title, Long year) {
+	public Book(String author, String title, int yearPublished) {
 		super();
 		this.id = count++;
 		this.author = author;
@@ -32,13 +33,12 @@ public class Book {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public Long getYearPublished() {
+	
+	public int getYearPublished() {
 		return yearPublished;
 	}
-	public void setYearPublished(Long yearPublished) {
+	public void setYearPublished(int yearPublished) {
 		this.yearPublished = yearPublished;
-		
-		
 	}
 	
 	public int getId() {

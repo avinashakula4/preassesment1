@@ -37,10 +37,10 @@ public class BookService {
 	
 	public List<Book> retrieveAllBooks()
 	{
-		if(allBooks!=null)
-		{
-		Collections.sort(allBooks, Comparator.comparing(Book::getTitle));
-		}
+		// if(allBooks!=null)
+		// {
+		// Collections.sort(allBooks, Comparator.comparing(Book::getTitle));
+		// }
 		return allBooks;
 	}
 

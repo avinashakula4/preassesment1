@@ -29,8 +29,10 @@ public class LibraryController {
 	@GetMapping("/api/books")
 	public List<Book> retrieveAllBooks()
 	{
-	
-		return service.retrieveAllBooks();
+	Books books =new Books(null);
+				
+	books.setBooks(service.retrieveAllBooks());
+		 return books;
 	}
 
 	

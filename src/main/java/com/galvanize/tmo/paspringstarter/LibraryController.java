@@ -27,7 +27,7 @@ public class LibraryController {
 	}
 	
 	@GetMapping("/api/books")
-	public List<Book> retrieveAllBooks()
+	public Books retrieveAllBooks()
 	{
 	Books books =new Books(null);
 				
